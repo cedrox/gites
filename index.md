@@ -7,3 +7,4 @@
 #
 layout: home
 ---
+Gite de mer page d'accueil 
