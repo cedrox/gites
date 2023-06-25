@@ -1,4 +1,4 @@
-title: Gites de Mer
+title: Gite de Mer
 author:
   name: Folliot
   email: info@gitedemer.net
@@ -6,7 +6,7 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Gite de mer en Normandie. Location de gite de mer en Normandie. Gite de mer en Normandie. 
+  Location de gite de mer en Normandie. 3 Gites idéalement situés à 2 pas de la mer. De 4 à 8 personnes.
 
 # Build settings
 
