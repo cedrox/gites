@@ -5,9 +5,9 @@ permalink: /gite/Bigorneau
 categories: gites
 ---
 
-## Description
+### Description
 
-Capacité: 6 personnes
+<strong>Capacité:</strong>  6 personnes
 
 <p>Grand appartement tout confort au 1er &eacute;tage, vue sur mer de toutes les pi&egrave;ces avec cuisine &agrave; l&rsquo;am&eacute;ricaine et salon, 1 WC s&eacute;par&eacute;, 3 chambres, une salle de bain avec WC, chauffage &eacute;lectrique.</p>
  <p>Acc&egrave;s par escalier ext&eacute;rieur priv&eacute;, tr&egrave;s calme, terrain clos avec pelouse, bien ensoleill&eacute;, barbecue, salon de jardin, parking individuel sur terrain clos, sauna et salle de musculation au RDC (plage &agrave; 40 m)</p>

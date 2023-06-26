@@ -5,9 +5,9 @@ permalink: /gite/Crevette
 categories: gites
 ---
 
-## Description
+### Description
 
-Capacité: 6 personnes
+<strong>Capacité:</strong> 6 personnes
 
 <p>Grand appartement tout confort au 1er &eacute;tage avec 1 cuisine ind&eacute;pendante, 1 salon, 3 chambres, 1 salle de bain avec WC et 1 WC s&eacute;par&eacute;, vue sur mer de toute les pi&egrave;ces, parking priv&eacute; ferm&eacute; (plage &agrave; 20 m).</p>
 <p>Au RDC coin terrasse avec barbecue et local de rangement, sauna et salle de musculation, au RDC acc&egrave;s commun avec appartement Etoile de mer (3 &agrave; 5 per) par escalier int&eacute;rieur.</p>

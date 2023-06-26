@@ -5,9 +5,9 @@ permalink: /gite/Etoile
 categories: gites
 ---
 
-## Description
+### Description
 
-Capacité: 3/5 personnes
+<strong>Capacité:</strong>  3/5 personnes
 
 <p>Appartement tout confort au 1er &eacute;tage avec 1 s&eacute;jour, 1 cuisine &eacute;quip&eacute;e, 1 chambre et 1 salle de bain avec WC. Magnifique vue sur toute la c&ocirc;te Est du Cotentin (de Tatihou &agrave; la pointe du Hoc), parking individuel sur terrain clos, sauna et salle de musculation au RDC, juxtapos&eacute; &agrave; Crevette.</p>
 <p>&nbsp;Au RDC coin pelouse, priv&eacute; avec salon de jardin et barbecue.</p>
