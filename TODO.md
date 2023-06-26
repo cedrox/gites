@@ -1,8 +1,8 @@
 Contenu
-- pages avec photos
-- Home page 
-- Contact page
+[ ] pages avec photos
+[ ] Home page 
+[ ] Contact page
 
 Hosting
-- valider le certificat SSL
+[x] valider le certificat SSL
 
