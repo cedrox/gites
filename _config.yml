@@ -34,9 +34,9 @@ minima:
 #
 header_pages:
   - about.md
-  - Location/Bigorneau.md
-  - Location/Crevette.md
-  - Location/EtoileDeMer.md
+  - Bigorneau.md
+  - Crevette.md
+  - EtoileDeMer.md
 
 # Set to `true` to show excerpts on the homepage.
 #
