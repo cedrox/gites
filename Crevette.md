@@ -1,7 +1,8 @@
 ---
 layout: page
 title: "Location Crevette"
-categories: gite
+permalink: /gite/Crevette
+categories: gites
 ---
 
 ## Description

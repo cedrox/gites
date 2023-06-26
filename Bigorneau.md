@@ -1,7 +1,8 @@
 ---
 layout: page
 title: "Location Bigorneau"
-categories: gite
+permalink: /gite/Bigorneau
+categories: gites
 ---
 
 ## Description
