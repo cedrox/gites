@@ -5,6 +5,8 @@ permalink: /gite/Crevette
 categories: gites
 ---
 
+{% include image-gallery.html folder="/uploads/crevette" %}
+
 ### Description
 
 <strong>Capacité:</strong> 6 personnes
