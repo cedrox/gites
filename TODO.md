@@ -5,7 +5,7 @@ Contenu
 [x] Revision prix
 [x] Disponibilités
 [ ] Home page 
-[ ] Contact page
+[x] Contact page
 [ ] robots.txt
 [ ] sitemap.xml
 
