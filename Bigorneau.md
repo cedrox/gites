@@ -37,4 +37,5 @@ categories: gites
 
 
 {% include buttons.html %}
-[Vérifier la disponibilité et Reservez directement sur Amivac](https://www.amivac.com/rental/eb1ac86605478a2c?hl=fr_FR)
+Vérifier la disponibilité et Reservez directement sur 
+[Amivac](https://www.amivac.com/rental/eb1ac86605478a2c?hl=fr_FR)
