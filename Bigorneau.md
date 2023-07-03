@@ -5,6 +5,8 @@ permalink: /gite/Bigorneau
 categories: gites
 ---
 
+{% include image-gallery.html folder="/uploads/Bigorneau" %}
+
 ### Description
 
 <strong>Capacité:</strong>  6 personnes
