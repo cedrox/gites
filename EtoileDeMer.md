@@ -1,13 +1,13 @@
 ---
 layout: page
-title: "Location Etoile de mer"
+title: "Etoile de mer"
 permalink: /gite/Etoile
 categories: gites
 ---
 
 {% include image-gallery.html folder="/uploads/Etoile" %}
 
-### Description
+### Description Location
 
 <strong>Capacité:</strong> 3/5 personnes
 
