@@ -4,10 +4,10 @@ Contenu
 [x] photos
 [x] Revision prix
 [x] Disponibilités
-[ ] Home page 
 [x] Contact page
-[ ] robots.txt
 [x] sitemap.xml
+[ ] Home page 
+[ ] robots.txt
 
 Hosting
 [x] valider le certificat SSL
