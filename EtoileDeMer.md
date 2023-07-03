@@ -5,6 +5,9 @@ permalink: /gite/Etoile
 categories: gites
 ---
 
+{% include image-gallery.html folder="/uploads/Etoile" %}
+
+
 ### Description
 
 <strong>Capacité:</strong>  3/5 personnes

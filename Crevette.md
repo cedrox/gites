@@ -5,7 +5,7 @@ permalink: /gite/Crevette
 categories: gites
 ---
 
-{% include image-gallery.html folder="/uploads/crevette" %}
+{% include image-gallery.html folder="/uploads/Crevette" %}
 
 ### Description
 
