@@ -27,7 +27,7 @@ minima:
   # Generate social links in footer.
   #
   social_links:
-    - { platform: facebook,       user_url: "https://www.facebook.com/gitedemer" }
+    - { platform: facebook, user_url: "https://www.facebook.com/gitedemer" }
 
 # If you want to link only specific pages in your header, uncomment this and add the path to the pages in
 # order as they should show up.
@@ -37,7 +37,6 @@ header_pages:
   - Crevette.md
   - EtoileDeMer.md
   - about.md
-
 # Set to `true` to show excerpts on the homepage.
 #
 # show_excerpts: false
