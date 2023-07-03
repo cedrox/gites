@@ -1,13 +1,13 @@
 ---
 layout: page
-title: "Location Crevette"
+title: "Crevette"
 permalink: /gite/Crevette
 categories: gites
 ---
 
 {% include image-gallery.html folder="/uploads/Crevette" %}
 
-### Description
+### Description Location
 
 <strong>Capacité:</strong> 6 personnes
 

@@ -1,13 +1,13 @@
 ---
 layout: page
-title: "Location Bigorneau"
+title: "Bigorneau"
 permalink: /gite/Bigorneau
 categories: gites
 ---
 
 {% include image-gallery.html folder="/uploads/Bigorneau" %}
 
-### Description
+### Description Location
 
 <strong>Capacité:</strong> 6 personnes
 
