@@ -12,3 +12,4 @@
 .btn:hover {color: rgba(91, 82, 114, 0.9);}
 
 
+#navigation .brand img {display: inline-block;height: 2rem;vertical-align: middle;}
