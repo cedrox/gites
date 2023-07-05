@@ -7,8 +7,11 @@ Contenu
 [x] Disponibilités
 [x] Contact page
 [x] sitemap.xml
-[ ] Home page 
+[x] Home page : Carrousel
+[x] Home page : Text
 [x] google analytics
+[ ] Envoyer mail 
+[ ] Page que faire ? 
 [ ] robots.txt
 
 Hosting
