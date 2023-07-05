@@ -11,7 +11,7 @@ Contenu
 [x] Home page : Text
 [x] google analytics
 [ ] Envoyer mail 
-[ ] Page que faire ? 
+[x] Page que faire ? 
 [ ] robots.txt
 
 Hosting
