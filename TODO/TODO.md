@@ -7,6 +7,7 @@ Contenu
 [x] Contact page
 [x] sitemap.xml
 [ ] Home page 
+[ ] google analytics
 [ ] robots.txt
 
 Hosting

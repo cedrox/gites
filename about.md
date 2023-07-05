@@ -9,5 +9,5 @@ permalink: /about/
 
 50310 St Marcouf de l'Isle
 
-Mail: info@gitedemer.net
+Mail: (info@gitedemer.net)[mailto:info@gitedemer.net]
 
