@@ -5,7 +5,7 @@
 # To change the home page layout, edit the _layouts/home.html file.
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
-title: "Location de vacances &agrave; quelques pas de la plage"
+title: "Location de vacances en bord de mer"
 layout: home2
 carousels:
 - images:
@@ -14,8 +14,7 @@ carousels:
   - image: "/uploads/Location/salle-de-musculation.jpg"
   - image: "/uploads/Location/sauna.JPG"
 ---
-# Gite de mer 
-<p>Location de vacances &agrave; quelques pas de la plage</p>
+
 
 {% include carousel.html height="50" unit="%" duration="7" number="1" %}
 
