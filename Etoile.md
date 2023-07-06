@@ -28,15 +28,13 @@ categories: gites
 
 | Saison         | Prix Jour | Prix Semaine |
 | -------------- | --------- | ------------ |
-| Basse Saison   | 80        | 350          |
-| Moyenne Saison | 80        | 350          |
-| Haute Saison   | 80        | 520          |
-
-
+| Basse Saison   | 75        | 525          |
+| Moyenne Saison | 97        | 679          |
+| Haute Saison   | 105       | 735          |
 
 {% include buttons.html %}
 Vérifier la disponibilité et Reservez directement sur
 
 <!-- [Amivac](https://www.amivac.com/rental/1f5a7cf3244f3182?hl=fr_FR) -->
-<a href="https://www.amivac.com/rental/1f5a7cf3244f3182?hl=fr_FR" class="btn" target="_blank" rel="noopener">Amivac</a>
 
+<a href="https://www.amivac.com/rental/1f5a7cf3244f3182?hl=fr_FR" class="btn" target="_blank" rel="noopener">Amivac</a>

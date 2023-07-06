@@ -1,12 +1,13 @@
 # iterate through a csv file and send an email to each user via gmail
 # install module 
-function Send-ToEmail([string]$email, [string]$login, [string]$password) {
+# don't forget to allow less secure apps in gmail: https://myaccount.google.com/lesssecureapps
+function Send-ToEmail([string]$email, [string]$login, [string]$password, [string]$body) {
     
     $message = new-object Net.Mail.MailMessage
     $message.From = "info@gitedemer.net"
     $message.To.Add($email)
     $message.Subject = "Gite de mer: Infos Marité et Jacky"
-    $message.Body = Get-Content -Path "mail.html" -Raw
+    $message.Body = $body
 
     $smtp = new-object Net.Mail.SmtpClient("smtp.gmail.com", "587")
     $smtp.EnableSSL = $true
@@ -16,21 +17,24 @@ function Send-ToEmail([string]$email, [string]$login, [string]$password) {
     try {
         $smtp.send($message)
 
-        write-host "Mail Sent"  
+        write-host "Mail Sent to $email" -ForegroundColor Green -BackgroundColor Black
     }
     catch {
-        write-host "Failed to send email"
+        write-host "Failed to send email to $email"
         Write-Host $_.Exception.Message -ForegroundColor Red
         write-host $Error[0].Exception
     }
     
 }
 
+
 $username = "info@gitedemer.net"
 $password = Get-Content -Path "C:\Users\cefollio\OneDrive\Projets\GiteDeMer\Backup\mailPassword.txt" 
-
+#Get the ps1 path
+$scriptPath = $MyInvocation.MyCommand.Path.Substring(0, $MyInvocation.MyCommand.Path.LastIndexOf("\")+1)
+$content = Get-Content -Path ($scriptPath +"mail.html") -Raw
 # Set the csv file path
-$csv = "C:\Users\cefollio\OneDrive\Projets\GiteDeMer\Backup\AllMailsTest.csv"
+$csv = "C:\Users\cefollio\OneDrive\Projets\GiteDeMer\Backup\AllMails.csv"
 
 # Set the csv variable
 $csv = Import-Csv $csv
@@ -39,7 +43,7 @@ $csv = Import-Csv $csv
 foreach ($line in $csv) {
     # Set the to variable
     $to = $line.mail
-    Send-ToEmail  -email $to -login $username -password $password
+    Send-ToEmail  -email $to -login $username -password $password -body $content
     # Send the email
     # Send-MailMessage -From $from -To $to -Subject $subject -Body $body -SmtpServer $smtpServer -Port $smtpPort -UseSsl -Credential $credentials
 }
