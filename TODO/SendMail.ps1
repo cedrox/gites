@@ -39,11 +39,24 @@ $csv = "C:\Users\cefollio\OneDrive\Projets\GiteDeMer\Backup\AllMails.csv"
 # Set the csv variable
 $csv = Import-Csv $csv
 
+$i=0
 # Iterate through the csv file
 foreach ($line in $csv) {
-    # Set the to variable
+    # Send mail user x to user x only
+    if ($i -lt 4) {
+        $i++
+        continue
+    }
+    
+    if ($i -gt 100) {
+        break
+    }
+    
+    Write-Host "Send Mail N° $i" -ForegroundColor Green -BackgroundColor Black
     $to = $line.mail
     Send-ToEmail  -email $to -login $username -password $password -body $content
+    Start-Sleep -s 5
+    $i ++
     # Send the email
     # Send-MailMessage -From $from -To $to -Subject $subject -Body $body -SmtpServer $smtpServer -Port $smtpPort -UseSsl -Credential $credentials
 }
