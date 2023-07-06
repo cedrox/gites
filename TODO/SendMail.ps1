@@ -27,7 +27,6 @@ function Send-ToEmail([string]$email, [string]$login, [string]$password, [string
     
 }
 
-
 $username = "info@gitedemer.net"
 $password = Get-Content -Path "C:\Users\cefollio\OneDrive\Projets\GiteDeMer\Backup\mailPassword.txt" 
 #Get the ps1 path
@@ -43,12 +42,12 @@ $i=0
 # Iterate through the csv file
 foreach ($line in $csv) {
     # Send mail user x to user x only
-    if ($i -lt 4) {
+    if ($i -lt 100) {
         $i++
         continue
     }
     
-    if ($i -gt 100) {
+    if ($i -gt 105) {
         break
     }
     
