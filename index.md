@@ -21,7 +21,7 @@ carousels:
 
 Terre de marins, de rencontres et de métissages, la Normandie est héritière d’une histoire riche et variée.
 
- Vous aurez la possibilité de visiter les sites où s’est joué l’histoire  du monde sur les plages du **débarquement** dont **Utah-Beach** et **Omaha Beach** ainsi que la ville de **Sainte Mére Eglise** (première commune de France libérée à 7 km des gîtes).
+ Vous aurez la possibilité de visiter les sites où s’est joué l’histoire  du monde sur les plages du **débarquement** dont **Utah-Beach** et **Omaha Beach** ainsi que la ville de **Sainte Mére Eglise** (première commune de France libérée à 10 km des gîtes).
 
 La Normandie c’est aussi, la terre des **Vikings**, de Guillaume le conquérant, de la tapisserie de Bayeux, de la guerre de cent ans ou des pèlerinages du **Mont Saint Michel**., … des lieux qui vous laisseront des souvenirs et des histoires à raconter pour longtemps.
 
