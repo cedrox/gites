@@ -15,7 +15,13 @@ function Send-ToEmail([string]$email, [string]$login, [string]$password, [string
     # $smtp.DeliveryMethod = [System.Net.Mail.SmtpDeliveryMethod]::Network
     $smtp.Credentials = New-Object System.Net.NetworkCredential($login, $password)
     try {
-        $smtp.send($message)
+       # $smtp.send($message)
+        # check if the recipicent is valid and still exists
+        if ($smtp.Send($message).Status -eq "Failure") {
+            write-host "Failed to send email to $email"
+            return
+        }
+
 
         write-host "Mail Sent to $email" -ForegroundColor Green -BackgroundColor Black
     }
@@ -39,15 +45,17 @@ $csv = "C:\Users\cefollio\OneDrive\Projets\GiteDeMer\Backup\AllMails.csv"
 $csv = Import-Csv $csv
 
 $i=0
+$fromLine=150
+$toLine=250
 # Iterate through the csv file
 foreach ($line in $csv) {
     # Send mail user x to user x only
-    if ($i -lt 100) {
+    if ($i -lt $fromLine) {
         $i++
         continue
     }
     
-    if ($i -gt 105) {
+    if ($i -gt $toLine) {
         break
     }
     
