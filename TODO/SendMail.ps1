@@ -6,7 +6,7 @@ function Send-ToEmail([string]$email, [string]$login, [string]$password, [string
     $message = new-object Net.Mail.MailMessage
     $message.From = "info@gitedemer.net"
     $message.To.Add($email)
-    $message.Subject = "Gite de mer: Infos Marité et Jacky"
+    $message.Subject = "Après travaux, nos appartements sont ouverts"
     $message.Body = $body
 
     $smtp = new-object Net.Mail.SmtpClient("smtp.gmail.com", "587")
@@ -45,8 +45,8 @@ $csv = "C:\Users\cefollio\OneDrive\Projets\GiteDeMer\Backup\AllMails.csv"
 $csv = Import-Csv $csv
 
 $i=0
-$fromLine=150
-$toLine=250
+$fromLine=356
+$toLine=450
 # Iterate through the csv file
 foreach ($line in $csv) {
     # Send mail user x to user x only

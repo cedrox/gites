@@ -6,7 +6,7 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Location de gite de mer en Normandie. 3 Gites idéalement situés à 2 pas de la mer. De 4 à 8 personnes.
+  Location de gite de mer en Normandie. 3 Gites idéalement situés à 2 pas de la mer. De 2 à 6 personnes.
 
 # Build settings
 
@@ -36,6 +36,7 @@ header_pages:
   - Bigorneau.md
   - Crevette.md
   - Etoile.md
+  - QueFaire.md
   - about.md
 # Set to `true` to show excerpts on the homepage.
 #

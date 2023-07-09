@@ -7,6 +7,15 @@ categories: activites
 
 ## Sur place
 
+ Le logement dispose :
+    - Terrain de boules
+    - Air de jeux (trampoline et portique)
+    - Préau avec babyfoot, table de ping-pong et flechéttes
+    - Sauna 
+    - Salle de musculation
+    - Location vélos standards : 4, électriques 2 charriot et vélo porte bagage enfan
+
+## Les environs
  <p>La plage de Saint Marcouf est propice pour la p&ecirc;che &agrave; pied (coques, moules, crustac&eacute;s, crevettes) et la p&ecirc;che en surf casting (bar) que vous pourrez &eacute;galement p&ecirc;cher avec votre propre bateau, possibilit&eacute; de place &agrave; la semaine au port de Quin&eacute;ville.</p>
  <p>Les immenses &eacute;tendues de sable vous inciteront &agrave; la pratique du cerf volant et a de longues fl&acirc;neries vers les plages du d&eacute;barquement que ce soit &agrave; pied, &agrave; v&eacute;lo ou &agrave; cheval.</p>
  
