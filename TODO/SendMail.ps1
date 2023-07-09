@@ -45,8 +45,8 @@ $csv = "C:\Users\cefollio\OneDrive\Projets\GiteDeMer\Backup\AllMails.csv"
 $csv = Import-Csv $csv
 
 $i=0
-$fromLine=356
-$toLine=450
+$fromLine=551
+$toLine=650
 # Iterate through the csv file
 foreach ($line in $csv) {
     # Send mail user x to user x only
