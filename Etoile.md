@@ -31,8 +31,8 @@ categories: gites
 | Saison         | Prix Jour | Prix Semaine |
 | -------------- | --------- | ------------ |
 | Basse Saison   | 75        | 525          |
-| Moyenne Saison | 97        | 679          |
-| Haute Saison   | 105       | 735          |
+| Moyenne Saison | 97        | 525          |
+| Haute Saison   | 105       | 840          |
 
 * Draps et linge de toilette en option (15 &euro; par lit/séjour)
 * Forfait ménage en option (50 &euro; par séjour)
