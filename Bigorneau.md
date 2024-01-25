@@ -29,13 +29,13 @@ Aire de jeux (trampoline&nbsp; et portique)</p>
 ## Tarifs
 
 | Saison         | Prix Jour | Prix Semaine |
-| -------------- | --------- | ------------ |
-| Basse Saison   | 75        | 525          |
-| Moyenne Saison | 100       | 700          |
-| Haute Saison   | 120       | 840          |
+|----------------|-----------|--------------|
+| Basse saison   | 75        | 525          |
+| Moyenne saison | 75        | 525          |
+| Haute saison   | 120       | 840          |
 
 * Draps et linge de toilette en option (15 &euro; par lit/séjour)
-* Forfait ménage en option (50 &euro; par séjour)
+* Forfait ménage en option (60 &euro; par séjour)
 * Les chèques vacances sont acceptés
 
 
