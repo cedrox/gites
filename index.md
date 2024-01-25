@@ -10,9 +10,12 @@ layout: home2
 carousels:
 - images:
   - image: "/uploads/Location/La-Perelle-vue-drone.JPG"
-  - image: "/uploads/Location/ping-pong-baby-foot.jpg"
   - image: "/uploads/Location/salle-de-musculation.jpg"
   - image: "/uploads/Location/sauna.JPG"
+  - image: "/uploads/Location/Les-jeux.jpg"
+  - image: "/uploads/Location/Petanque.jpg"
+  - image: "/uploads/Location/Sauna.jpg"
+  - image: "/uploads/Location/Kayaks.jpg"
 ---
 
 
