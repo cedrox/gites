@@ -21,7 +21,7 @@ categories: gites
 
 ### Exterieur
 
-<p><strong>Situation de l&rsquo;Hebergement :</strong>Pr&eacute;s d&rsquo;une petite station baln&eacute;aire offrant de nombreuses possibilit&eacute;s, une grande maison sur un terrain clos situ&eacute;es face &agrave; la mer (juste la route &agrave; traverser)<br /><strong>Maison :</strong>divis&eacute;e en 3 appartements&nbsp; avec une vue sur toute la c&ocirc;te Est du Cotentin de Tatihou &agrave; la pointe du hoc. <br />3 Appartements Mitoyens<br />1 Etages<br /><strong>Parking :</strong>privatifs<br /><strong>Divers :</strong>Au Rez de chaussée, terrasse avec cuisine d'été, barbecue gaz Veber et salon de jardin.
+<p><strong>Situation de l&rsquo;h&eacute;bergement :</strong>Pr&eacute;s d&rsquo;une petite station baln&eacute;aire offrant de nombreuses possibilit&eacute;s, une grande maison sur un terrain clos situ&eacute;es face &agrave; la mer (juste la route &agrave; traverser)<br /><strong>Maison :</strong>divis&eacute;e en 3 appartements&nbsp; avec une vue sur toute la c&ocirc;te Est du Cotentin de Tatihou &agrave; la pointe du hoc. <br />3 Appartements Mitoyens<br />1 Etages<br /><strong>Parking :</strong>privatifs<br /><strong>Divers :</strong>Au Rez de chaussée, terrasse avec cuisine d'été, barbecue gaz Veber et salon de jardin.
 Aire de jeux (trampoline&nbsp; et portique)</p>
 [Liste des activités](/activites/QueFaire)
 
