@@ -3,6 +3,7 @@ layout: page
 title: "Crevette – Gîte for 6, Beachfront, Normandy"
 permalink: /en/gite/Crevette
 categories: gites
+nav_title: "Crevette"
 lang: en
 lang_alt: /gite/Crevette
 description: "Crevette gîte – 6 people, sea view from every room, 3 bedrooms, private terrace, enclosed parking. Beach 20 m away in Saint-Marcouf-de-l'Isle, Normandy."

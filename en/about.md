@@ -2,6 +2,7 @@
 layout: page
 title: "About – Gîte de Mer, Saint-Marcouf, Normandy"
 permalink: /en/about/
+nav_title: "About"
 lang: en
 lang_alt: /about/
 description: "Gîte de Mer – 13 boulevard des Gougins, 50310 Saint-Marcouf-de-l'Isle. Contact details, location and directions for the 3 seaside gîtes in Normandy, Cotentin."

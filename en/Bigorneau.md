@@ -3,6 +3,7 @@ layout: page
 title: "Bigorneau – Gîte for 6, Sea View, Normandy"
 permalink: /en/gite/Bigorneau
 categories: gites
+nav_title: "Bigorneau"
 lang: en
 lang_alt: /gite/Bigorneau
 description: "Bigorneau gîte – 6 people, sea view from every room, 3 bedrooms, open-plan kitchen, sauna, private parking. Beach 40 m away in Saint-Marcouf-de-l'Isle, Normandy."

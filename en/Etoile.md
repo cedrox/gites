@@ -3,6 +3,7 @@ layout: page
 title: "Étoile de Mer – Apartment for 3, Sea-View Terrace, Cotentin"
 permalink: /en/gite/Etoile
 categories: gites
+nav_title: "Étoile de Mer"
 lang: en
 lang_alt: /gite/Etoile
 description: "Étoile de Mer apartment – 3 people, 20 m² terrace overlooking the sea with panoramic views of the Cotentin. Saint-Marcouf-de-l'Isle, Normandy."

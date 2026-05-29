@@ -3,6 +3,7 @@ layout: page
 title: "What to Do?"
 permalink: /en/activities/what-to-do
 categories: activities
+nav_title: "What to Do?"
 lang: en
 lang_alt: /activites/QueFaire
 description: "Activities from our gîtes in Normandy: D-Day beaches, Utah Beach, kitesurfing, cycling, shellfish gathering, Mont Saint-Michel, Channel Islands, Tatihou."
