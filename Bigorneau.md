@@ -1,43 +1,70 @@
 ---
 layout: page
-title: "Bigorneau"
+title: "Bigorneau – Gîte 6 personnes vue mer, Normandie"
 permalink: /gite/Bigorneau
 categories: gites
+description: "Gîte Bigorneau – 6 personnes, vue sur mer de toutes les pièces, 3 chambres, cuisine américaine, sauna, parking privé. Plage à 40 m à Saint-Marcouf-de-l'Isle, Normandie."
+image: /uploads/Bigorneau/Vue%20chambre%20sur%20mer.jpg
+schema_type: Accommodation
+schema_name: "Gîte Bigorneau – Location vacances mer, Saint-Marcouf Normandie"
+schema_description: "Grand appartement 6 personnes avec vue sur mer de toutes les pièces, 3 chambres, cuisine américaine, sauna, parking privé. Plage à 40 m à Saint-Marcouf-de-l'Isle, Normandie."
+schema_capacity: 6
+schema_rooms: 3
 ---
 
 {% include image-gallery.html folder="/uploads/Bigorneau" %}
 
 ### Description Location
 
-<strong>Capacité:</strong> 6 personnes
+**Capacité : 6 personnes**
 
-<p>Grand appartement tout confort au 1er &eacute;tage, vue sur mer de toutes les pi&egrave;ces avec cuisine &agrave; l&rsquo;am&eacute;ricaine et salon, 1 WC s&eacute;par&eacute;, 3 chambres, une salle de bain avec WC, chauffage &eacute;lectrique.</p>
- <p>Acc&egrave;s par escalier ext&eacute;rieur priv&eacute;, tr&egrave;s calme, terrain clos avec pelouse, bien ensoleill&eacute;, barbecue, salon de jardin, parking individuel sur terrain clos, sauna et salle de musculation au RDC (plage &agrave; 40 m)</p>
+Grand appartement tout confort au 1er étage, **vue sur mer de toutes les pièces**, cuisine à l'américaine et salon, 1 WC séparé, 3 chambres, salle de bain avec WC, chauffage électrique.
+
+Accès par escalier extérieur privé, très calme, terrain clos avec pelouse, bien ensoleillé, barbecue, salon de jardin, parking individuel, sauna et salle de musculation au RDC. **Plage à 40 m.**
 
 ### Intérieur
 
- <p><strong>Salon</strong><br />- 1 canap&eacute;<br />- 2 fauteuils<br />- Acc&eacute;s WIFI <br />- TV <br /><strong>Coin cuisine am&eacute;nag&eacute; &agrave; l&rsquo;am&eacute;ricaine</strong><br />- 1 table<br />- Lave Vaisselle<br />- Four<br />- Micro Onde<br />- Lave Linge<br />- R&eacute;frig&eacute;rateur / Cong&eacute;lateur &hellip;<br /><br /><strong><br /><strong>1 Salle de bain avec douche </strong>et WC<br /><strong>1 WC individuel</strong></strong>&nbsp;<br /><strong>2 Chambres avec 2 lits de 90 </strong><br />1 chambre avec 1 &nbsp;lit de 140&nbsp;et 1 salle d&rsquo;eau <br /><br /><strong>Chauffage &eacute;l&eacute;ctrique</strong></p>
- <p>&nbsp;</p>
+**Salon**
+- 1 canapé, 2 fauteuils
+- TV, accès WiFi
 
-### Exterieur
+**Cuisine américaine**
+- Table de repas
+- Lave-vaisselle, four, micro-ondes, lave-linge
+- Réfrigérateur / congélateur
 
-<p><strong>Situation de l&rsquo;h&eacute;bergement :</strong>Pr&eacute;s d&rsquo;une petite station baln&eacute;aire offrant de nombreuses possibilit&eacute;s, une grande maison sur un terrain clos situ&eacute;es face &agrave; la mer (juste la route &agrave; traverser)<br /><strong>Maison :</strong>divis&eacute;e en 3 appartements&nbsp; avec une vue sur toute la c&ocirc;te Est du Cotentin de Tatihou &agrave; la pointe du hoc. <br />3 Appartements Mitoyens<br />1 Etages<br /><strong>Parking :</strong>privatifs<br /><strong>Divers :</strong>Au Rez de chaussée, terrasse avec cuisine d'été, barbecue gaz Veber et salon de jardin.
-Aire de jeux (trampoline&nbsp; et portique)</p>
+**Sanitaires**
+- 1 salle de bain avec douche et WC
+- 1 WC indépendant
+
+**Chambres**
+- 2 chambres avec 2 lits de 90
+- 1 chambre avec lit de 140 et salle d'eau privative
+
+**Chauffage électrique**
+
+### Extérieur
+
+Situé face à la mer à Saint-Marcouf-de-l'Isle (juste la route à traverser), grand terrain clos et ensoleillé avec vue sur toute la côte Est du Cotentin, de Tatihou à la Pointe du Hoc.
+
+- **Parking** : privatif sur terrain clos
+- **Terrasse** : cuisine d'été, barbecue gaz Weber, salon de jardin
+- **Aire de jeux** : trampoline et portique
+- 3 appartements mitoyens sur 1 étage
+
 [Liste des activités](/activites/QueFaire)
-
 
 ## Tarifs
 
 | Saison         | Prix Jour | Prix Semaine |
-|----------------|-----------|--------------|
+| -------------- | --------- | ------------ |
 | Basse saison   | 75        | 525          |
 | Moyenne saison | 75        | 525          |
-| Haute saison   | 120       | 840          |
+| Haute saison   | 120       | 770          |
 
 * Draps et linge de toilette en option (15 &euro; par lit/séjour)
 * Forfait ménage en option (60 &euro; par séjour)
 * Les chèques vacances sont acceptés
-
 
 {% include buttons.html %}
 Vérifier la disponibilité et Reservez directement sur

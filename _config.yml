@@ -1,4 +1,7 @@
 title: Gite de Mer
+lang: fr
+url: https://www.gitedemer.net
+
 author:
   name: Gite de Mer
   email: info@gitedemer.net
@@ -6,7 +9,10 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Location de gite de mer en Normandie. 3 Gites idéalement situés à 2 pas de la mer. De 2 à 6 personnes.
+  Location de vacances en bord de mer en Normandie (Cotentin, Manche). 3 gîtes mitoyens face à la mer à Saint-Marcouf-de-l'Isle, à 5 km d'Utah Beach et 10 min de Saint-Vaast-la-Hougue. De 2 à 6 personnes par gîte.
+
+twitter:
+  card: summary_large_image
 
 # Build settings
 

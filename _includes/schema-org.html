@@ -1,0 +1,122 @@
+{% comment %}Structured data (JSON-LD) for SEO and LLM discoverability{% endcomment %}
+
+<!-- Schema.org: LodgingBusiness (site-wide) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LodgingBusiness",
+  "name": "Gite de Mer",
+  "description": "3 gîtes de vacances en bord de mer à Saint-Marcouf-de-l'Isle, Normandie. Bigorneau (6 pers.), Crevette (6 pers.), Étoile de Mer (3 pers.). Face à la mer, à 5 km d'Utah Beach et 10 km de Sainte-Mère-Église.",
+  "url": "https://www.gitedemer.net",
+  "email": "info@gitedemer.net",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "13 boulevard des Gougins",
+    "addressLocality": "Saint-Marcouf-de-l'Isle",
+    "postalCode": "50310",
+    "addressRegion": "Normandie",
+    "addressCountry": "FR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 49.468,
+    "longitude": -1.296
+  },
+  "priceRange": "€€",
+  "currenciesAccepted": "EUR",
+  "paymentAccepted": "Chèques vacances, Virement bancaire",
+  "numberOfRooms": 3,
+  "amenityFeature": [
+    { "@type": "LocationFeatureSpecification", "name": "WiFi", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Sauna", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Salle de musculation", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Parking privé", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Barbecue", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Salon de jardin", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Terrain clos avec pelouse", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Aire de jeux (trampoline, portique)", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Location de vélos (dont électriques)", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Plage à 20–40 m", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Vue sur mer", "value": true }
+  ],
+  "sameAs": ["https://www.facebook.com/gitedemer"]
+}
+</script>
+
+{% if page.schema_type == "Accommodation" %}
+<!-- Schema.org: Accommodation (per-gite page) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Accommodation",
+  "name": "{{ page.schema_name | escape }}",
+  "description": "{{ page.schema_description | escape }}",
+  "url": "https://www.gitedemer.net{{ page.url }}",
+  "numberOfRooms": {{ page.schema_rooms }},
+  "occupancy": {
+    "@type": "QuantitativeValue",
+    "maxValue": {{ page.schema_capacity }}
+  },
+  "amenityFeature": [
+    { "@type": "LocationFeatureSpecification", "name": "WiFi", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Lave-vaisselle", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Lave-linge", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Four", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Micro-ondes", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "TV", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Parking privé", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Barbecue", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Vue sur mer", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Sauna partagé", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Salle de musculation partagée", "value": true }
+  ],
+  "photo": {
+    "@type": "ImageObject",
+    "url": "https://www.gitedemer.net{{ page.image | url_encode }}"
+  },
+  "containedInPlace": {
+    "@type": "LodgingBusiness",
+    "name": "Gite de Mer",
+    "url": "https://www.gitedemer.net"
+  },
+  "offers": [
+    {
+      "@type": "Offer",
+      "name": "Basse et moyenne saison",
+      "price": "525",
+      "priceCurrency": "EUR",
+      "unitCode": "WEE",
+      "availability": "https://schema.org/InStock"
+    },
+    {
+      "@type": "Offer",
+      "name": "Haute saison",
+      "price": "840",
+      "priceCurrency": "EUR",
+      "unitCode": "WEE",
+      "availability": "https://schema.org/InStock"
+    }
+  ]
+}
+</script>
+{% endif %}
+
+{% if page.faqs %}
+<!-- Schema.org: FAQPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{% for faq in page.faqs %}
+    {
+      "@type": "Question",
+      "name": "{{ faq.q | escape }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ faq.a | escape }}"
+      }
+    }{% unless forloop.last %},{% endunless %}{% endfor %}
+  ]
+}
+</script>
+{% endif %}
