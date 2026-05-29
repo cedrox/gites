@@ -7,6 +7,8 @@
 #
 title: "Location de vacances - Gite en bord de mer – Normandie, Cotentin"
 layout: home2
+lang: fr
+lang_alt: /en/
 description: "3 gîtes de vacances en bord de mer à Saint-Marcouf-de-l'Isle (Manche), Normandie. Face à la mer, à 5 km d'Utah Beach. 2 à 6 personnes par gîte. Sauna, vélos, WiFi inclus."
 image: /uploads/Location/La-Perelle-vue-drone.JPG
 faqs:

@@ -26,7 +26,12 @@
       {%- endif %}
       </div>
       <div class="footer-col">
-        <p>{{ site.description | escape }}</p>
+        {%- assign current_lang = page.lang | default: site.lang | default: "fr" -%}
+        {%- if current_lang == "en" and site.description_en -%}
+          <p>{{ site.description_en | escape }}</p>
+        {%- else -%}
+          <p>{{ site.description | escape }}</p>
+        {%- endif -%}
       </div>
     </div>
 

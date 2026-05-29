@@ -1,8 +1,11 @@
 ---
 layout: page
 title: "Bigorneau – Gîte 6 personnes vue mer, Normandie"
+nav_title: "Bigorneau"
 permalink: /gite/Bigorneau
 categories: gites
+lang: fr
+lang_alt: /en/gite/Bigorneau
 description: "Gîte Bigorneau – 6 personnes, vue sur mer de toutes les pièces, 3 chambres, cuisine américaine, sauna, parking privé. Plage à 40 m à Saint-Marcouf-de-l'Isle, Normandie."
 image: /uploads/Bigorneau/Vue%20chambre%20sur%20mer.jpg
 schema_type: Accommodation

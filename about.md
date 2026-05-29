@@ -1,7 +1,10 @@
 ---
 layout: page
 title: "À propos – Gîte de Mer, Saint-Marcouf, Normandie"
+nav_title: "À propos"
 permalink: /about/
+lang: fr
+lang_alt: /en/about/
 description: "Gîte de Mer – 13 boulevard des Gougins, 50310 Saint-Marcouf-de-l'Isle. Contact, situation et accès aux 3 gîtes en bord de mer, Normandie, Cotentin."
 ---
 

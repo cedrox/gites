@@ -1,8 +1,11 @@
 ---
 layout: page
 title: "Étoile de Mer – Appartement 3 personnes, terrasse vue mer Cotentin"
+nav_title: "Étoile de Mer"
 permalink: /gite/Etoile
 categories: gites
+lang: fr
+lang_alt: /en/gite/Etoile
 description: "Appartement Étoile de Mer – 3 personnes, terrasse de 20 m² surplombant la mer avec vue panoramique sur le Cotentin. Saint-Marcouf-de-l'Isle, Normandie."
 image: /uploads/Etoile/Terrasse-surplombant-mer.jpg
 schema_type: Accommodation

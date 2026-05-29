@@ -11,6 +11,9 @@ author:
 description: >
   Location de vacances en bord de mer en Normandie (Cotentin, Manche). 3 gîtes mitoyens face à la mer à Saint-Marcouf-de-l'Isle, à 5 km d'Utah Beach et 10 min de Saint-Vaast-la-Hougue. De 2 à 6 personnes par gîte.
 
+description_en: >
+  Holiday rentals by the sea in Normandy (Cotentin, Manche). 3 adjoining gîtes facing the sea in Saint-Marcouf-de-l'Isle, 5 km from Utah Beach and 10 min from Saint-Vaast-la-Hougue. 2 to 6 people per gîte.
+
 twitter:
   card: summary_large_image
 
@@ -44,6 +47,13 @@ header_pages:
   - Etoile.md
   - QueFaire.md
   - about.md
+
+en_header_pages:
+  - en/Bigorneau.md
+  - en/Crevette.md
+  - en/Etoile.md
+  - en/what-to-do.md
+  - en/about.md
 # Set to `true` to show excerpts on the homepage.
 #
 # show_excerpts: false

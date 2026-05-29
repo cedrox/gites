@@ -1,2 +1,42 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+// Language switcher
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  margin-left: 1em;
+  font-size: 0.9em;
+  vertical-align: middle;
+
+  .lang-sep {
+    color: #aaa;
+    user-select: none;
+  }
+
+  .lang-link {
+    text-decoration: none;
+    opacity: 0.7;
+    transition: opacity 0.15s;
+
+    &:hover {
+      opacity: 1;
+      text-decoration: underline;
+    }
+  }
+
+  .lang-active {
+    font-weight: 700;
+    cursor: default;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .lang-switch {
+    display: flex;
+    margin-left: 0;
+    margin-top: 0.5em;
+    padding: 0.25em 0;
+  }
+}

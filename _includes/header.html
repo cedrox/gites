@@ -1,10 +1,18 @@
 <header class="site-header">
 
   <div class="wrapper">
+    {%- assign current_lang = page.lang | default: site.lang | default: "fr" -%}
+    {%- if current_lang == "en" -%}
+      {%- assign page_paths = site.en_header_pages -%}
+      {%- assign home_url = "/en/" -%}
+    {%- else -%}
+      {%- assign page_paths = site.header_pages -%}
+      {%- assign home_url = "/" -%}
+    {%- endif -%}
     {%- assign default_paths = site.pages | map: "path" -%}
-    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    {%- assign page_paths = page_paths | default: default_paths -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-    <a class="site-title brand" rel="author" href="{{ "/" | relative_url }}"><img src="/assets/img/logo04_70.png" alt="Jekyll logo"> {{ site.title | escape }}</a>
+    <a class="site-title brand" rel="author" href="{{ home_url | relative_url }}"><img src="/assets/img/logo04_70.png" alt="Gîte de Mer"> {{ site.title | escape }}</a>
     
     {%- if titles_size > 0 -%}
       <nav class="site-nav">
@@ -21,9 +29,23 @@
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title -%}
-            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.nav_title | default: my_page.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
+
+          {%- if page.lang_alt -%}
+            <span class="lang-switch">
+              {%- if current_lang == "en" -%}
+                <a href="{{ page.lang_alt | relative_url }}" class="lang-link" aria-label="Version française">&#127467;&#127479; FR</a>
+                <span class="lang-sep">|</span>
+                <span class="lang-active" aria-current="true">&#127468;&#127463; EN</span>
+              {%- else -%}
+                <span class="lang-active" aria-current="true">&#127467;&#127479; FR</span>
+                <span class="lang-sep">|</span>
+                <a href="{{ page.lang_alt | relative_url }}" class="lang-link" aria-label="English version">&#127468;&#127463; EN</a>
+              {%- endif -%}
+            </span>
+          {%- endif -%}
         </div>
       </nav>
     {%- endif -%}

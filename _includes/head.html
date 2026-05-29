@@ -3,6 +3,28 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {%- seo -%}
+  {%- if page.lang_alt -%}
+    {%- assign current_lang = page.lang | default: site.lang | default: "fr" -%}
+    {%- if current_lang == "fr" -%}
+      <link rel="alternate" hreflang="fr" href="{{ page.url | absolute_url }}">
+      <link rel="alternate" hreflang="en" href="{{ page.lang_alt | absolute_url }}">
+    {%- else -%}
+      <link rel="alternate" hreflang="en" href="{{ page.url | absolute_url }}">
+      <link rel="alternate" hreflang="fr" href="{{ page.lang_alt | absolute_url }}">
+    {%- endif -%}
+    <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+  {%- endif -%}
+  {%- comment -%}Preconnect for external resources{%- endcomment -%}
+  <link rel="preconnect" href="https://images.weserv.nl" />
+  <link rel="dns-prefetch" href="https://images.weserv.nl" />
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+  <link rel="preconnect" href="https://www.googletagmanager.com" />
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+  {%- endif -%}
+  {%- comment -%}Preload LCP image when defined in front matter{%- endcomment -%}
+  {%- if page.image -%}
+  <link rel="preload" as="image" href="{{ page.image }}" />
+  {%- endif -%}
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}

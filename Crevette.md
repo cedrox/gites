@@ -1,8 +1,11 @@
 ---
 layout: page
 title: "Crevette – Gîte 6 personnes front de mer, Normandie"
+nav_title: "Crevette"
 permalink: /gite/Crevette
 categories: gites
+lang: fr
+lang_alt: /en/gite/Crevette
 description: "Gîte Crevette – 6 personnes, vue sur mer de toutes les pièces, 3 chambres, terrasse privée, parking fermé. Plage à 20 m à Saint-Marcouf-de-l'Isle, Normandie."
 image: /uploads/Crevette/Vue%20mer%20du%20sejour.jpg
 schema_type: Accommodation
