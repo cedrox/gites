@@ -3,6 +3,7 @@ layout: page
 title: "Que Faire ?"
 permalink: /activites/QueFaire
 categories: activites
+description: "Activités à faire depuis nos gîtes en Normandie : plages du Débarquement, Utah Beach, kitesurf, vélos, pêche à pied, Mont Saint-Michel, îles Anglo-Normandes, Tatihou."
 ---
 
 ## Sur place
